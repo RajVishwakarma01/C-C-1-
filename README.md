@@ -1,2 +1,2 @@
-C Cpp (1
+C CPP(1)
 With GK
