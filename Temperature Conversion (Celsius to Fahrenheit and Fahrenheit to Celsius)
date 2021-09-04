@@ -1,0 +1,32 @@
+//“Write a Program for Convert Temperature from Celsius to Fahrenheit and Fahrenheit to Celsius”.
+#include<iostream>
+using namespace std;
+float ctof()
+{
+	float c,r,a;
+	cout<<"Enter the temperature in celsius : ";
+	cin>>c;
+	r=(c*1.8)+32;
+	cout<<endl;
+	cout<<c<<" celsius in fahrenheit : "<<r<<endl;
+}
+float ftoc()
+{
+	float f,r,a;
+	cout<<"Enter the temperature in fahrenheit : ";
+	cin>>f;
+	r = (9.0*f/5.0)+32;
+	cout<<endl;
+	cout<<f<<" fahrenheit in celsius : "<<r<<endl;
+}
+int main()
+{
+	cout<<"1) Celsius to Fahrenheit Conversion :- "<<endl<<endl;
+	ctof();
+	cout<<endl;
+	cout<<"--------------------------------------------------";
+	cout<<endl<<endl;
+	cout<<"2) Fahrenheit to Celsius Conversion :- "<<endl<<endl;
+	ftoc();
+	return 0;
+}
